@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+body{
+    background-image: url("img/bg-type-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    background-color: thistle;
+    background-blend-mode:soft-light;
+}
+.copyright{
+    color:slateblue;
+    background: transparent;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vw;
+}
+nav{
+    display: flex;
+}
+.comp-logo{
+    display: flex;
+    /* align-items: center; */
+    background: transparent;
+}
+.comp-logo img{
+    /* width: 12vw; */
+    height: 18vh;
+    background: transparent;
+}
+header{
+    background: transparent;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: transparent;
+    padding: 5vh 1vw;
+}
+nav ul li{
+    padding: 1vh 1.5vw;
+    background: transparent;
+    border-radius: 5px;
+    list-style: none;
+}
+nav ul li:hover{
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    background: transparent;
+    font-size: 1.35vw;
+    padding: 1vh 0;
+}
+nav ul li a:hover{
+    font-size: 1.5vw;
+    color: teal;
+}
+.sub-menu{
+    display: none;
+}
+nav ul li:hover .sub-menu{
+    display:inline-flex;
+    flex-direction: column;
+}
+main{
+    min-height: calc(100vh - 6vh - 12vh);
+    background: transparent;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vh 5vw;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1vw;
+}
+.phone h2{
+    color: white;
+    padding: 0 13vw 1vh 0;
+    font-family: 'Patua One', cursive;
+    font-size: 2vw;
+}
+.phone p{
+    color: white;
+    padding: 0 0 1vh 0;
+    font-family: 'Cinzel', serif;
+    font-size: 2.5vw;
+}
+.email h2{
+    color: white;
+    padding: 0 5vw 1vh 5vw;
+    font-family: 'Patua One', cursive;
+    font-size: 2vw;
+}
+.email p{
+    color: white;
+    padding: 0 0 1vh 3vw;
+    font-family: 'Cinzel', serif;
+    font-size: 2vw;
+}
+.social h2{
+    color: white;
+    padding: 0 9vw 1vh 0;
+    font-family: 'Patua One', cursive;
+    font-size: 2vw;
+}
+.scm-links{
+    color: white;
+    padding: 0 0 1vh 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:baseline;
+    font-family: 'Cinzel', serif;
+    font-size: 2vw;
+}
+.scm-links h3 a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
